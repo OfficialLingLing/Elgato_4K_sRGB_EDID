@@ -6,6 +6,9 @@
 
 This guide will help you set up your Elgato 4K60 Pro MK.2 for precise colors by using a custom EDID file and configuring various settings in NVIDIA Control Panel and Windows Color Management.
 
+## Background
+The most common issue that users encounter with the Elgato 4K60 Pro MK.2 while recording in OBS is related to color inaccuracies when capturing. This often arises due to the Elgato OBS driver having the "Video Proc Amp" default set to 127 instead of a neutral 128. Additionally, there's a mismatch in the default color space which causes additional inconsistencies in color representation. Elgato should really address and fix their OBS driver's default settings to prevent these discrepancies and provide users with more accurate color representation out of the box.
+
 > **Disclaimer:** This setup has only been tested with NVIDIA drivers and is meant for capturing 4K 60hz SDR. Ensure that Elgato 4K Capture Utility is closed before using OBS!
 
 ## Part 1: Setup Custom EDID in the Elgato 4K Capture Utility
@@ -59,7 +62,7 @@ This guide will help you set up your Elgato 4K60 Pro MK.2 for precise colors by 
 ![Snipaste_2023-09-22_23-57-41](https://github.com/OfficialLingLing/Elgato_4K_sRGB_EDID/assets/145821569/08646105-60f8-414d-9e3d-d7daa2ce0522)
 
 3. In the Property popup, ensure `Output Color Range` is `Bypass (Default)`.
-4. Go to the `Video Proc Amp` tab, click on `Default` (should make everything 128).
+4. **Very Important:** Go to the `Video Proc Amp` tab, click on `Default` to reset settings and make sure every setting is at 128 to ensure neutral color representation.
 
 ![Snipaste_2023-09-22_23-58-08](https://github.com/OfficialLingLing/Elgato_4K_sRGB_EDID/assets/145821569/3d9c7c79-809d-4251-b566-83b9f9d87f1f)
 
@@ -68,7 +71,7 @@ This guide will help you set up your Elgato 4K60 Pro MK.2 for precise colors by 
    - **Resolution:** 3840x2160
    - **FPS:** Highest FPS
    - **Video Format:** XRGB
-   - **Color Space:** Default (very important)
+   - **Color Space:** Default (very important to avoid any mismatch in color space)
    - **Color Range:** Full
    - **Buffering:** Disable
 
@@ -76,4 +79,4 @@ This guide will help you set up your Elgato 4K60 Pro MK.2 for precise colors by 
 
 
 ## Final Notes
-This setup should help in achieving more accurate color representation through the Elgato 4K60 Pro MK.2. Make sure to compare the colors on the screen with the captured colors to ensure accuracy.
+This setup should mitigate the color discrepancies and aid in achieving a more accurate color representation through the Elgato 4K60 Pro MK.2. Compare the colors on the screen with the captured colors meticulously to ensure accuracy, and contact Elgato to express the need for rectifying the default settings in their OBS driver to circumvent such issues in the future.
