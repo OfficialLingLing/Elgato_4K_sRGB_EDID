@@ -1,5 +1,9 @@
 # Elgato 4K60 Pro MK.2 Color Precision Setup
 
+![before](https://github.com/OfficialLingLing/Elgato_4K_sRGB_EDID/assets/145821569/b5e80499-e798-42ae-b78a-880ace679877)
+![after](https://github.com/OfficialLingLing/Elgato_4K_sRGB_EDID/assets/145821569/40eb8d4e-c4c8-4762-aebd-b4ce3555bbdd)
+
+
 This guide will help you set up your Elgato 4K60 Pro MK.2 for precise colors by using a custom EDID file and configuring various settings in NVIDIA Control Panel and Windows Color Management.
 
 > **Disclaimer:** This setup has only been tested with NVIDIA drivers and is meant for capturing 4K 60hz SDR. Ensure that Elgato 4K Capture Utility is closed before using OBS!
