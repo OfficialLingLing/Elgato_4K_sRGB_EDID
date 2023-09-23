@@ -1,4 +1,4 @@
-# Elgato 4K60 Pro MK.2 Accurate Color Setup for sRGB 4:4:4 Desktop Capturing
+# Elgato 4K60 Pro MK.2 Accurate Color Setup for sRGB 4:4:4 Capturing
 
 ![before](https://github.com/OfficialLingLing/Elgato_4K_sRGB_EDID/assets/145821569/b5e80499-e798-42ae-b78a-880ace679877)
 ![after](https://github.com/OfficialLingLing/Elgato_4K_sRGB_EDID/assets/145821569/40eb8d4e-c4c8-4762-aebd-b4ce3555bbdd)
